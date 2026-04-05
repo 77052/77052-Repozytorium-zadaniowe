@@ -1,0 +1,56 @@
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Piotr Malczyk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, main, footer {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #f5f5f5;
+            padding: 30px 20px;
+            border-bottom: 2px solid #ccc;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-top: 2px solid #ccc;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        footer a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
