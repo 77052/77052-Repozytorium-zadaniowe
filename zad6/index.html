@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<link id="themeStylesheet" rel="stylesheet" href="red.css">
+    <meta charset="UTF-8">
+    <title>CV - Piotr Malczyk (77052)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+    <h1>Piotr Malczyk - CV (77052)</h1>
+</header>
+
+<div>
+    <button onclick="changeTheme()">Zmień motyw</button>
+    <button onclick="toggleSection()">Pokaż / Ukryj sekcję</button>
+</div>
+
+<main>
+
+    <section>
+        <h2>Kontakt</h2>
+        <p>Email: <a href="mailto:pma.edu.pl">pma.edu.pl</a></p>
+        <p>Telefon: <a href="tel:+48000000000">+48 000 000 000</a></p>
+        <p>Miasto: Warszawa</p>
+
+        <p>
+            GitHub: 
+            <a href="https://github.com/77052" target="_blank" rel="noopener noreferrer">
+                https://github.com/77052
+            </a>
+        </p>
+
+		<p>
+            LinkedIn: 
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                https://www.linkedin.com/
+            </a>
+        </p>
+
+        <img src="zdjęcie.jpg" alt="Zdjęcie profilowe Piotr Malczyk" width="200">
+    </section>
+
+    <section>
+        <h2>O mnie</h2>
+        <p>
+            Jestem studentem informatyki zainteresowanym tworzeniem stron internetowych i programowaniem.
+            Uczę się HTML, C# i rozwijam swoje umiejętności poprzez projekty.
+        </p>
+    </section>
+
+    <section id="umiejętności">
+        <h2>Umiejętności</h2>
+        <ul id="skillsList"></ul>
+    </section>
+
+    <section>
+        <h2>Doświadczenie</h2>
+
+        <article>
+            <p>Praktyki w Firmie</p>
+        </article>
+
+        <article>
+            <p>Praktyki w Firmie </p>
+        </article>
+		
+		<article>
+			<p>Umowa zlecenie w Firmie</p>
+		</article>
+
+    </section>
+
+    <section>
+        <h2>Edukacja</h2>
+        <p>2025 - obecnie: Studia</p>
+        <p>2022 - 2025 Liceum Ogólnokształcące</p>
+    </section>
+
+    <section>
+        <h2>Projekty</h2>
+        <ol id="projectsList"></ol>
+    </section>
+
+	<section>
+        <h2>Formularz kontaktowy</h2>
+
+        <form id="contactForm" novalidate>
+            <label>Imię:
+                <input type="text" id="firstName" required pattern="^[A-Za-zÀ-ž\s-]+$">
+                <div class="error" id="firstNameError"></div>
+            </label>
+
+            <label>Nazwisko:
+                <input type="text" id="lastName" required pattern="^[A-Za-zÀ-ž\s-]+$">
+                <div class="error" id="lastNameError"></div>
+            </label>
+
+            <label>E-mail:
+                <input type="email" id="email" required>
+                <div class="error" id="emailError"></div>
+            </label>
+
+            <label>Wiadomość:
+                <textarea id="message" required></textarea>
+                <div class="error" id="messageError"></div>
+            </label>
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+	
+</main>
+
+<footer>
+    <p>2026 Piotr Malczyk</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

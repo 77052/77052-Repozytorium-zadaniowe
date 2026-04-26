@@ -1,0 +1,14 @@
+{
+  "umiejetnosci": [
+    "Tworzenie struktury stron internetowych w HTML",
+    "Programowanie w C#",
+    "Praca z repozytoriami GitHub i podstawowe komendy Git",
+    "Podstawy pracy z terminalem",
+    "Rozwiązywanie problemów i logiczne myślenie",
+    "Angielski B1"
+  ],
+  "projekty": [
+    "Strona CV w HTML",
+    "Symulator Bankomatu i Automatu vendingowego w C#"
+  ]
+}
